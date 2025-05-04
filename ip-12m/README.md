@@ -15,8 +15,21 @@ The iPhone 12 mini is the best form factor I've experienced in a phone: to the p
 - C94 boards (used for the conversion from USB C to lightning's USB 2.0 standard and to certify/communicate useful stuff like PD) are not exactly open-source. My best bet is to grab some board + connectors from alibaba, as opposed to the messy and low yield approach of tearing apart MFI charging cords. Then I'll have to de-solder the attached MCUs and replicate the traces in the flex PCB. Unfortunately this means I'll need to invest in a hot air gun or a small hotplate.
 
 
+## GOALS
 
-
+- [ ] Order C94 boards
+- [ ] Make sure they work...
+- [ ] Reverse engineer boards 
+    - [ ] -> schematic in KiCAD
+    - [ ] BOM for any attainable components (the MOSFETs, etc)
+    - [ ] de-solder unattainable components
+- [ ] Open up iPhone, replace battery...
+- [ ] Make sure remainder of charging assembly is functional besides connector
+- [ ] Design flexible PCB in KiCAD
+    - [ ] Print it out on paper and make sure it fits in phone
+    - [ ] Wire up circuit and make sure it works electrically
+    - [ ] Order it!!!
+- [ ] Assemble!
 
 
 
